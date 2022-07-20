@@ -1,4 +1,4 @@
-const API_KEY = ${{ screts.API_KEY }}
+const API_KEY = ${{ secrets.API_KEY }}
 
 function onGeoSuccess(position) {
   const lat = position.coords.latitude
